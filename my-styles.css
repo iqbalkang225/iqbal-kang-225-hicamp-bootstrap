@@ -1,0 +1,134 @@
+body {
+  /* color: #fff; */
+}
+
+img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#hero {
+  background: url(../images/carousel-5.jpg) bottom center/cover;
+  height: 80vh;
+  position: relative;
+  z-index: 0;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.nav-item:hover .nav-link {
+  color: rgb(220, 53, 69);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    rgba(220, 53, 70, 0.5),
+    rgba(0, 0, 0, 0.6)
+  );
+  z-index: -1;
+}
+
+.hero-text {
+  font-size: 1rem;
+}
+
+.card {
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.feature-1 {
+  background-color: #9bc4bc;
+}
+.feature-2 {
+  background-color: #ff773d;
+}
+.feature-3 {
+  background-color: #4b5043;
+}
+
+.info p:first-child {
+  font-size: 1.4rem;
+}
+
+.info p:last-child {
+  font-size: 1rem;
+}
+
+.lucky-host-title {
+  width: 70%;
+}
+
+.see:hover {
+  border-bottom: 1px solid red;
+}
+
+.btn-pro:hover {
+  color: rgb(220, 53, 69);
+}
+
+.pro-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 55px;
+  background-color: #fff;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.pro-icon i {
+  color: rgb(220, 53, 69);
+  font-size: 2rem;
+}
+
+.pro-text {
+  font-size: 1rem;
+}
+
+.try {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: end;
+  background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1f1f1f;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card img {
+    height: 500px;
+  }
+}

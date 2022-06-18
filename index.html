@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hicamp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="my-styles.css" />
+  </head>
+  <body">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <span class="text-danger fw-bold">Hicamp</span>
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Book</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Nav -->
+
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container text-white text-center">
+        <div class="overlay"></div>
+        <h3 class="mb-0">Find yourself outside.</h3>
+        <h1 class="display-1 fw-bold text-warning">Hipcamp</h1>
+        <p class="hero-text d-none d-sm-block">
+          Discover and book tent camping, RV parks, cabins, treehouses, and
+          glamping.
+        </p>
+        <button class="btn btn-lg bg-danger px-5 my-2 my-sm-0">Book Now</button>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-danger text-center mt-5 mb-3">
+            <h3 class="display-5">Find your next getaway</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 my-2 my-lg-0">
+            <div class="card shadow-sm rounded-5">
+              <img src="./images/feature-1.jpg" alt="couple in a tent" />
+              <div class="info p-4 text-center text-white feature-1">
+                <p class="fw-bold mb-0">Hidden gems</p>
+                <p class="fw-bold mb-1">Sites on the rise</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-2 my-lg-0">
+            <div class="card shadow-sm rounded-5">
+              <img src="./images/feature-2.jpg" alt="food prep" />
+              <div class="info p-4 text-center text-white feature-2">
+                <p class="fw-bold mb-0">Food is included</p>
+                <p class="fw-bold mb-1">Our top picks</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-2 my-lg-0">
+            <div class="card shadow-sm rounded-5">
+              <img src="./images/feature-3.jpg" alt="bonfire night" />
+              <div class="info p-4 text-center text-white feature-3">
+                <p class="fw-bold mb-0">Bonfire nights</p>
+                <p class="fw-bold mb-1">Privacy and seclusion</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Features -->
+
+    <section id="lucky-host">
+      <div class="container">
+        <div class="row my-5 py-lg-5 d-flex align-items-center">
+          <div class="col-md-8">
+            <h3 class="py-2 lucky-host-title">
+              We're giving away 12,500 to a lucky lucky-host
+            </h3>
+            <p>
+              Become a host on The Dyrt before June 30th for a chance to win
+              $2,500 just by sharing your slice of nature with our community of
+              1 million+ campers.
+            </p>
+            <p>
+              Step 1:
+              <a href="#" class="text-decoration-none text-danger">List your property</a>
+              and turn on Instant Book (we'll help)
+            </p>
+            Step 2:
+            <a href="#" class="text-decoration-none text-danger">
+              Visit the sweepstakes page</a
+            >
+            and fill out the form to enter
+          </div>
+          <div class="col-md-4">
+            <img src="./images/lucky-host.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Lucky-host -->
+
+    <section class="carousel">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 my-3 my-lg-0">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/carousel-2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/carousel-3.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/carousel-4.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/carousel-5.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/carousel-1.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3>Camping made comfy</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              reiciendis quia odit ex, ea obcaecati dolore iusto voluptate
+              aliquam? Ad cum nesciunt, doloribus veritatis atque commodi
+              impedit sit consequuntur quaerat deleniti ipsum quisquam facilis
+              porro fugiat quod asperiores ut in! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Impedit nemo labore cumque odio
+              sunt? Beatae sint a delectus, doloribus adipisci sed sunt ipsa
+              consectetur ea quibusdam rerum necessitatibus neque excepturi.
+            </p>
+            <a href="#" class="text-decoration-none text-danger see">See for yourself</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Carousel -->
+
+    <section class="trial">
+      <div class="container my-5">
+        <div class="row mx-1 text-white">
+          <div
+            class="col-8 text-center offset-2 offset-md-0 col-md-6 col-lg-4 bg-danger py-5 px-3"
+          >
+            <div class="trial-card">
+              <h3>Camp like a pro</h3>
+              <p class="fw-bold">Unlock premium tools and discounts</p>
+              <button class="btn bg-white btn-pro">Try free for 7 days &rarr;</button>
+            </div>
+          </div>
+          <div
+            class="d-none d-md-flex col-md-6 col-lg-8 align-items-center bg-danger"
+          >
+            <div class="row">
+              <div class="col-lg-6 d-flex justify-content-start">
+                <div
+                  class="pro-container d-flex justify-content-center align-items-center my-2"
+                >
+                  <span class="pro-icon"
+                    ><i class="fa-solid fa-map-location"></i
+                  ></span>
+                  <p class="pro-text fw-bold m-0 mx-2">
+                    Camp better with PRO maps
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div
+                  class="pro-container d-flex justify-content-center align-items-center my-2"
+                >
+                  <span class="pro-icon"><i class="fa-solid fa-tags"></i></span>
+                  <p class="pro-text fw-bold m-0 mx-2">
+                    Save more with PRO Campground Discounts
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark">
+      <div
+        class="container py-5 text-white d-flex flex-column align-items-center"
+      >
+        <p class="lead">Join our newsletter for deals and updates.</p>
+        <form action="#" class="form">
+          <div class="input-group">
+            <input type="text" placeholder="Email" />
+            <div class="input-group-append">
+              <button class="btn bg-danger px-4">Join</button>
+            </div>
+          </div>
+        </form>
+        <ul class="nav pt-3 d-none d-sm-flex">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Book Now</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
